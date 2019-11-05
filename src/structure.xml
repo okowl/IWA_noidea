@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Champions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <champion id="001" class="marksmen">
+        <name>Jhin</name>
+        <abilities>
+            <Q>
+                <ability_name>Dancing Grenade</ability_name>
+                <active>ACTIVE: Jhin launches a canister at the target enemy, dealing physical damage. Dancing Grenade bounces to up to three additional enemies beyond the first, with each kill it performs increasing its total damage by 35%.</active>
+                <passive/>
+            </Q>
+            <W>
+                <ability_name>Deadly Flourish</ability_name>
+                <active>ACTIVE: Jhin fires a shot in the target direction that deals physical damage to all enemies in a line until colliding with an enemy Champion icon champion. Deals 75% damage against non-champions.</active>
+                <passive>Enemy champions damaged by Jhin, his allies, or inside a blooming Captive Audience Lotus Trap are marked for 4 seconds.</passive>
+            </W>
+            <E>
+                <ability_name>Captive Audience</ability_name>
+                <active>Jhin places a Lotus Trap at the target location which Noxious Trap stealths and arms after a brief delay, lasting up to 180 seconds. The Lotus Trap blooms upon enemy contact, Sight icon revealing enemies in the area for 4 seconds.</active>
+                <passive>Jhin summons a blooming Lotus Trap under every enemy champion he kills. Additionally, Jhin periodically stocks a Lotus Trap charge, up to a maximum of 2, which are unaffected by Beauty in Death.</passive>
+            </E>
+            <R>
+                <ability_name>Curtain Call</ability_name>
+                <active>Jhin begins Channeling, gaining a wider field of view but not a larger vision range, during which he has the ability to cancel or recast Curtain Call up to four times. Jhin cannot cancel the channeling or fire the first shot until after 1 second, and has 10 seconds in which to use all casts.</active>
+                <passive>After 0.25 seconds, Jhin fires a round in the target direction that deals physical damage to all enemies hit, increased by 0% − 300% (based on target's missing health), until colliding with an enemy Champion icon champion, Sight icon revealing the traveled area for 0.5 seconds and all enemies hit for 2 seconds while also Slow icon slowing them by 80% for 0.5 seconds.
+                    MINIMUM NON-FOURTH SHOT DAMAGE:»
+                </passive>
+            </R>
+        </abilities>
+        <match_making>
+            <strong_against>Вот тут</strong_against>
+            <week_against></week_against>
+        </match_making>
+    </champion>
+    <champion id="002" class="support">
+
+    </champion>
+</Champions>
