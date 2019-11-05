@@ -27,8 +27,15 @@
             </R>
         </abilities>
         <match_making>
-            <strong_against>Вот тут</strong_against>
-            <week_against></week_against>
+            <string-array name="strong_against">
+                <item>Vayne</item>
+                <item>Jinx</item>
+            </string-array>
+
+            <string-array name="week_against">
+                <item>Sivir</item>
+                <item></item>
+            </string-array>
         </match_making>
     </champion>
     <champion id="002" class="support">
