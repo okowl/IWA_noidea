@@ -13,6 +13,7 @@
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/playList.css" rel="stylesheet">
+  <script src="js/playList.js"></script>
 </head>
 
 <body>
@@ -67,9 +68,10 @@
                     <input class="form-control" type="text" name="URL" placeholder="URL">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-                
             </form>
         </div>
+        <button id="delete" class="btn btn-block btn-danger">Delete</button>
+        <p class="text-muted">To delete an entree, click the required row first</p>
       </div>
       <div id="results" class="col-lg-12"></div>
   </div>

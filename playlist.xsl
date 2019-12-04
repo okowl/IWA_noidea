@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
-                <table id="palayList" class="indent">
+                <table id="table" class="indent">
                     <thead>
                         <tr>
-                            <th colspan="5">Here is your russian roullet.</th>
+                            <th colspan="4">Here is your russian roullet.</th>
                         </tr>
                         <tr>
-                            <th>English</th>
                             <th>Channel</th>
                             <th>PublishedDate</th>
                             <th>Title</th>
@@ -15,15 +14,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <xsl:for-each select="/item">
-                            <xsl:for-each select="element">
-                                <tr>
+                        <xsl:for-each select="item/element">
+                                <tr id="{position()}">
                                     <xsl:attribute name="english">
                                         <xsl:value-of select="boolean(./@english)" />
                                     </xsl:attribute>
-                                    <td align="center">
-                                        <input name="item0" type="checkbox" />
-                                    </td>
                                     <td>
                                         <xsl:value-of select="Channel" />
                                     </td>
@@ -37,7 +32,6 @@
                                         <xsl:value-of select="URL" />
                                     </td>
                                 </tr>
-                            </xsl:for-each>
                         </xsl:for-each>
                     </tbody>
                 </table>
