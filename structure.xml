@@ -7,36 +7,6 @@
     <URL>https://www.youtube.com/watch?v=M95iEQx20Ag</URL>
   </element>
   <element>
-    <Channel>respectproduct</Channel>
-    <PublishedDate>8/31/2019 9:47:54 a8/p8</PublishedDate>
-    <Title>Макс Корж - Горы по колено</Title>
-    <URL>https://www.youtube.com/watch?v=WujKJpxaUHk</URL>
-  </element>
-  <element>
-    <Channel>KinoMost</Channel>
-    <PublishedDate>8/31/2019 9:47:23 a8/p8</PublishedDate>
-    <Title>Grebz - По ремонту</Title>
-    <URL>https://www.youtube.com/watch?v=12d0WJ28M0k</URL>
-  </element>
-  <element>
-    <Channel>MLBC</Channel>
-    <PublishedDate>8/31/2019 9:47:02 a8/p8</PublishedDate>
-    <Title>Ваша Сюзанна...</Title>
-    <URL>https://www.youtube.com/watch?v=8FbVpKAtw9A</URL>
-  </element>
-  <element english="true">
-    <Channel>Little Big</Channel>
-    <PublishedDate>8/31/2019 9:43:34 a8/p8</PublishedDate>
-    <Title>LITTLE BIG – SKIBIDI (official music video)</Title>
-    <URL>https://www.youtube.com/watch?v=mDFBTdToRmw</URL>
-  </element>
-  <element english="true">
-    <Channel>THE HATTERS</Channel>
-    <PublishedDate>8/31/2019 9:46:03 a8/p8</PublishedDate>
-    <Title>THE HATTERS - EVERYDAY I'M DRINKING</Title>
-    <URL>https://www.youtube.com/watch?v=GkSjHnZm274</URL>
-  </element>
-  <element>
     <Channel>Shortparis</Channel>
     <PublishedDate>8/31/2019 9:48:06 a8/p8</PublishedDate>
     <Title>Shortparis - Страшно</Title>
@@ -78,23 +48,11 @@
     <Title>L'ONE - Тигр (премьера клипа, 2016)</Title>
     <URL>https://www.youtube.com/watch?v=Rj6XpJTw3oY</URL>
   </element>
-<element>
-    <Channel>ПОШЛАЯ МОЛЛИ</Channel>
-    <PublishedDate>8/31/2019 9:50:16 a8/p8</PublishedDate>
-    <Title>ПОШЛАЯ МОЛЛИ - ЛОЛ</Title>
-    <URL>https://www.youtube.com/watch?v=UDiOCgjYZhw</URL>
-  </element>
   <element>
     <Channel>wearepussyriot</Channel>
     <PublishedDate>8/31/2019 9:50:28 a8/p8</PublishedDate>
     <Title>Pussy Riot - CHAIKA</Title>
     <URL>https://www.youtube.com/watch?v=VakUHHUSdf8</URL>
-  </element>
-  <element>
-    <Channel>Каста</Channel>
-    <PublishedDate>8/31/2019 9:51:00 a8/p8</PublishedDate>
-    <Title>Каста — Скрепы (Official Video)</Title>
-    <URL>https://www.youtube.com/watch?v=rVYtS_cp-yc</URL>
   </element>
   <element>
     <Channel>ПОШЛАЯ МОЛЛИ</Channel>
@@ -138,7 +96,7 @@
     <Title>ПОШЛАЯ МОЛЛИ — ТИПИЧНАЯ ВЕЧЕРИНКА С БАССЕЙНОМ</Title>
     <URL>https://www.youtube.com/watch?v=ccdHspHSJQ8</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>TOMMY CASH</Channel>
     <PublishedDate>8/31/2019 9:51:52 a8/p8</PublishedDate>
     <Title>TOMMY CASH - X-RAY (Official Video)</Title>
@@ -156,19 +114,19 @@
     <Title>PHARAOH - ДИКО, НАПРИМЕР</Title>
     <URL>https://www.youtube.com/watch?v=l7v8DAbIOx0</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>TOMMY CASH</Channel>
     <PublishedDate>8/31/2019 9:52:15 a8/p8</PublishedDate>
     <Title>TOMMY CASH - WINALOTO (Official Video)</Title>
     <URL>https://www.youtube.com/watch?v=3OGMrZKIjKU</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>THE HATTERS</Channel>
     <PublishedDate>8/31/2019 9:52:36 a8/p8</PublishedDate>
     <Title>THE HATTERS — NO RULES (Official Video)</Title>
     <URL>https://www.youtube.com/watch?v=hwlYm918Bao</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>Little Big</Channel>
     <PublishedDate>8/31/2019 9:52:47 a8/p8</PublishedDate>
     <Title>LITTLE BIG — SKIBIDI (Romantic Edition)</Title>
@@ -187,12 +145,12 @@
     <URL>https://www.youtube.com/watch?v=napUAIh4UE0</URL>
   </element>
   <element>
-    <Channel english = "true">MARUV</Channel>
+    <Channel english="true">MARUV</Channel>
     <PublishedDate>8/31/2019 13:01:03 a8/p8</PublishedDate>
     <Title>MARUV - Siren Song (Official Video)</Title>
     <URL>https://www.youtube.com/watch?v=uv5d58mwIE0</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>Little Big</Channel>
     <PublishedDate>8/31/2019 9:52:54 a8/p8</PublishedDate>
     <Title>LITTLE BIG - LollyBomb [Official Music Video]</Title>
@@ -216,7 +174,7 @@
     <Title>Мальбэк — Равнодушие ft. Сюзанна</Title>
     <URL>https://www.youtube.com/watch?v=ZOI8ib7k4Ic</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>MARUV</Channel>
     <PublishedDate>8/31/2019 13:02:12 a8/p8</PublishedDate>
     <Title>MARUV - Focus On Me (prod. by Boosin)</Title>
@@ -258,7 +216,7 @@
     <Title>IC3PEAK - Смерти Больше Нет</Title>
     <URL>https://www.youtube.com/watch?v=MBG3Gdt5OGs</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>TOMMY CASH</Channel>
     <PublishedDate>8/31/2019 13:04:35 a8/p8</PublishedDate>
     <Title>TOMMY CASH - LITTLE MOLLY (Official Video)</Title>
@@ -276,7 +234,7 @@
     <Title>Zventa Sventana – Мужа дома нету ft. Ivan Dorn (12+)</Title>
     <URL>https://www.youtube.com/watch?v=9tY4OK-Dg_s</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>Little Big</Channel>
     <PublishedDate>8/31/2019 13:12:25 a8/p8</PublishedDate>
     <Title>Orgonite - Habibi Yaeni - אורגונייט - חביבי יעני (Official Video)</Title>
@@ -288,19 +246,19 @@
     <Title>СБПЧ - Злой</Title>
     <URL>https://www.youtube.com/watch?v=xra_4Y6CDIs</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>THE HATTERS</Channel>
     <PublishedDate>8/31/2019 13:11:22 a8/p8</PublishedDate>
     <Title>THE HATTERS - RUSSIAN STYLE</Title>
     <URL>https://www.youtube.com/watch?v=1phe0lvmgU0</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>Little Big</Channel>
     <PublishedDate>8/31/2019 13:11:36 a8/p8</PublishedDate>
     <Title>LITTLE BIG - PUBLIC ENEMY</Title>
     <URL>https://www.youtube.com/watch?v=jf0KciXneFk</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>Little Big</Channel>
     <PublishedDate>8/31/2019 13:14:25 a8/p8</PublishedDate>
     <Title>Orgonite - Hamsa XAMCA חמסה</Title>
@@ -378,7 +336,7 @@
     <Title>СБПЧ - "Динозавр"</Title>
     <URL>https://www.youtube.com/watch?v=xbViPzUbI1A</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>Владимир Таут</Channel>
     <Language>English</Language>
     <PublishedDate>8/31/2019 13:14:25 a8/p8</PublishedDate>
@@ -589,7 +547,7 @@
     <Title>Комсомольск – Оркестр #МузыкаСнимает (Official Video)</Title>
     <URL>https://www.youtube.com/watch?v=MuAzWor1znQ</URL>
   </element>
-  <element english = "true">
+  <element english="true">
     <Channel>MARUV</Channel>
     <Language>English</Language>
     <PublishedDate>8/31/2019 13:14:25 a8/p8</PublishedDate>
@@ -674,5 +632,5 @@
     <Title>2rbina 2rista - Стальные яйца</Title>
     <URL>https://www.youtube.com/watch?v=WtPH5OZwwHc</URL>
   </element>
-
+</item>>
 </item>

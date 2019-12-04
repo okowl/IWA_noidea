@@ -70,6 +70,8 @@ router.post('/post/delete', function(req, res) {
   // Call appendJSON function and pass in body of the current POST request
   deleteJSON(req.body);
 
+  res.redirect('back');
+
 });
 
 router.get('/', function(req, res){
