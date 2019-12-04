@@ -46,21 +46,19 @@
   </nav>
 
   <!-- Page Content -->
+  
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h1 class="mt-5">Welcome to Russian Rulet</h1>
         <p class="lead">All Play List is Below</p>
-      </div>
-      <div id="results" class="col-lg-12"></div>
-  </div>
-   <div class="col-lg-4 text-center order-2">
+          <div class="col-lg-4 text-center order-2">
             <form enctype="application/json" action="/post/json" method="post">
                 <div class="form-group">
-                    <input class="form-control" type="text" name="Cannel" placeholder="Channel">
+                    <input class="form-control" type="text" name="Channel" placeholder="Channel">
                 </div>
                 <div class="form-group">
-                    <input class="form-control" type="text" name="PublishedDate" placeholder="PublishedDate">
+                    <input class="form-control" type="text" name="PublishedDate" placeholder="Published Date">
                 </div>
                 <div class="form-group">
                     <input class="form-control" type="text" name="Title" placeholder="Title">
@@ -71,7 +69,9 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
-
+      </div>
+      <div id="results" class="col-lg-12"></div>
+  </div>
     <footer class="footer">
       <div class="container">
         <span class="text-muted">&copy; 2019</span>

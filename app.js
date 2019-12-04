@@ -36,7 +36,7 @@ router.post('/post/json', function(req, res){
         xmlFileToJs('structure.xml', function(err, result){
             if(err) throw (err);
 
-                result.cafemenu.section[obj.sec_n].entree.push({'Channel': obj.Channel, 'PublishDate': obj.PublishDate, 'Title': obj.Title, 'URL': obj.URL});
+                result.item.element.push({'Channel': obj.Channel, 'PublishedDate': obj.PublishedDate, 'Title': obj.Title, 'URL': obj.URL});
 
                 console.log(result);
 

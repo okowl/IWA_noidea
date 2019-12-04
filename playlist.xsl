@@ -4,9 +4,10 @@
                 <table id="palayList" class="indent">
                     <thead>
                         <tr>
-                            <th colspan="4">Here is your russian roullet.</th>
+                            <th colspan="5">Here is your russian roullet.</th>
                         </tr>
                         <tr>
+                            <th>English</th>
                             <th>Channel</th>
                             <th>PublishedDate</th>
                             <th>Title</th>
@@ -14,11 +15,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <xsl:for-each select="/item/element">
+                        <xsl:for-each select="/item">
                             <xsl:for-each select="element">
                                 <tr>
                                     <xsl:attribute name="english">
-                                        <xsl:value-of select="boolean(./@venglish)" />
+                                        <xsl:value-of select="boolean(./@english)" />
                                     </xsl:attribute>
                                     <td align="center">
                                         <input name="item0" type="checkbox" />
