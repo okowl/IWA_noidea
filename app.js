@@ -50,6 +50,25 @@ router.post('/post/json', function(req, res){
 
     res.redirect('back');
 });
+// POST request to add to JSON & XML files
+router.post('/post/delete', function(req, res) {
+
+  // Function to read in a JSON file, add to it & convert to XML
+  function deleteJSON(obj) {
+    // Function to read in XML file, convert it to JSON, add a new object and write back to XML file
+    xmlFileToJs('Countries.xml', function(err, result) {
+      if (err) throw (err);
+      console.log(obj.row);
+      jsToXmlFile('Countries.xml', result, function(err) {
+        if (err) console.log(err);
+      })
+    })
+  }
+
+  // Call appendJSON function and pass in body of the current POST request
+  deleteJSON(req.body);
+
+});
 
 router.get('/', function(req, res){
 
