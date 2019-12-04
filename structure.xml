@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="playlist.xsl"?>
 <item>
-   <YouTube-Playlist.xls>
       <element>
          <Channel>Чикен Карри</Channel>
          <PublishedDate>8/31/2019 9:47:44 a8/p8</PublishedDate>
@@ -691,5 +691,4 @@
          <Title>2rbina 2rista - Стальные яйца</Title>
          <URL>https://www.youtube.com/watch?v=WtPH5OZwwHc</URL>
       </element>
-   </YouTube-Playlist.xls>
 </item>

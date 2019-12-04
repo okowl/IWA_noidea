@@ -33,14 +33,14 @@ router.post('/post/json', function(req, res){
 
         console.log(obj);
 
-        xmlFileToJs('PaddysCafe.xml', function(err, result){
+        xmlFileToJs('structure.xml', function(err, result){
             if(err) throw (err);
 
-                result.cafemenu.section[obj.sec_n].entree.push({'item': obj.item, 'price': obj.price});
+                result.cafemenu.section[obj.sec_n].entree.push({'Channel': obj.Channel, 'PublishDate': obj.PublishDate, 'Title': obj.Title, 'URL': obj.URL});
 
                 console.log(result);
 
-                jsToXmlFile('PaddysCafe.xml', result, function(err){
+                jsToXmlFile('structure.xml', result, function(err){
                     if(err) console.log(err);
                 })
             
@@ -61,8 +61,8 @@ router.get('/get/html', function(req, res) {
 
     res.writeHead(200, {'Content-Type': 'text/html'});
 
-    var xml = fs.readFileSync('PaddysCafe.xml', 'utf8');
-    var xsl = fs.readFileSync('PaddysCafe.xsl', 'utf8');
+    var xml = fs.readFileSync('structure.xml', 'utf8');
+    var xsl = fs.readFileSync('playlist.xsl', 'utf8');
     var doc = xmlParse(xml);
     var stylesheet = xmlParse(xsl);
 
