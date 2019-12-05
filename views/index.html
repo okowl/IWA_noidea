@@ -49,7 +49,7 @@
         <p class="lead">All Play List is Below</p>
         </div>
           <div class="col-lg-4 text-center order-2">
-            <form enctype="application/json" action="/post/json" method="post">
+            <form enctype="application/json" action="/post/json" method="post" style="margin-bottom: 10px;">
                 <div class="form-group">
                     <input class="form-control" type="text" name="Channel" placeholder="Channel">
                 </div>
@@ -62,10 +62,10 @@
                 <div class="form-group">
                     <input class="form-control" type="text" name="URL" placeholder="URL">
                 </div>
-                <button type="submit" class="btn btn-block btn-danger" style="background-color: #4CAF50;">Submit</button>
+                <button type="submit" class="btn btn-block btn-danger" style="background-color: #4CAF50; border-color: #4CAF50;">Submit</button>
             </form>
-            <button id="delete" class="btn btn-block btn-danger" >Delete</button>
-            <p class="text-muted">To delete an entree, click the required row first</p>
+            <button id="delete" class="btn btn-block btn-danger">Delete</button>
+            <p class="text-muted" style="font-weight: bold;">To delete an entree, click the required row first</p>
         </div>
         <div id="results" class="col-lg-8"></div>
 
