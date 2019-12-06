@@ -26,9 +26,9 @@
                                         <xsl:value-of select="Title" />
                                     </td>
                                      <td>
-                                         <a href="{url}">
+                                         <a href="{URL}">
                                         <xsl:value-of select="URL" />
-                                        </a>>
+                                        </a>
                                     </td>
                                     <xsl:attribute name="english">
                                         <xsl:value-of select="boolean(./@english)" />

@@ -1,19 +1,30 @@
+/**
+ * @author Olga Kiseleva 2017136
+ * Part of the code were borrowed from Project https://github.com/mikhail-cct/CA1-In-class-Demo
+ * It aill be commented in order, to demonstrate the understanding of the porcesses
+ * that happens inside of methods.
+ */
 
-										// This function either turns on or off the row highlighting for vegetarian
-										// items (depending on the value of bShowVeg)
-function highlightVegetarian(idTable, bShowVeg) {
-										// if bShowVeg is true, then we're highlighting vegetarian
-										//	meals, otherwise we're unhighlighting them.
+ /**
+  * Mehtod will highlight all tracks in the playlist, that has an English as main lyrics language
+  * @param {*} idTable - id of the item in the table
+  * @param {*} engLyrics - if this parameter is true -> the row will be higlighted
+  */
+
+
+function highlightVegetarian(idTable, engLyrics) {
+
 	var i=0;
 	var oTable = document.getElementById(idTable);
 
 	var oTBODY = oTable.getElementsByTagName('TBODY')[0];
 	var aTRs = oTBODY.getElementsByTagName('TR');
-											// walk through each of the table rows and see if it has a 
-											// "vegetarian" attribute on it.
+											
+    //loop through the table in order to find all rows, with all elements that 
+    //has attribute "English" -> set as true 									
 	for (i=0; i < aTRs.length; i++) {
-		if (aTRs[i].getAttribute('vegetarian') && aTRs[i].getAttribute('vegetarian') == "true") {
-			if (bShowVeg){
+		if (aTRs[i].getAttribute('english') && aTRs[i].getAttribute('english') == "true") {
+			if (engLyrics){
 				aTRs[i].style.backgroundColor = "lightGreen";
 			} else {
 				aTRs[i].style.backgroundColor = "";

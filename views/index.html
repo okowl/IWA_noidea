@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Template of the project partly borrowed from https://github.com/mikhail-cct/CA1-In-class-Demo --> 
 <head>
 
   <meta charset="utf-8">
@@ -10,7 +10,7 @@
 
   <title>Russian Roulette</title>
 
-  <!-- Bootstrap core CSS -->
+  <!-- Links to bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/playList.css" rel="stylesheet">
   <script src="js/playList.js"></script>
@@ -18,7 +18,7 @@
 
 <body>
 
-  <!-- Navigation -->
+  <!-- Top of the screen navigation header-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
       <a class="navbar-brand" href="#">YouTube Playlist</a>
@@ -40,14 +40,15 @@
     </div>
   </nav>
 
-  <!-- Page Content -->
+  <!-- Main page container that holds multiple containers for table, forms and buttons -->
   
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h1 class="mt-5">Welcome to Russian Roulette</h1>
-        <p class="lead">All Play List is Below</p>
+        <p class="lead">Good luck!</p>
         </div>
+        <!--container for the form that will allow to add or delete or update records in the xml file-->
           <div class="col-lg-4 text-center order-2">
             <form enctype="application/json" action="/post/json" method="post" style="margin-bottom: 10px;">
                 <div class="form-group">
@@ -67,14 +68,9 @@
             <button id="delete" class="btn btn-block btn-danger">Delete</button>
             <p class="text-muted" style="font-weight: bold;">To delete an entree, click the required row first</p>
         </div>
+        <!--container for the table, that will be filled from the xml file-->
         <div id="results" class="col-lg-8"></div>
-
   </div>
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">&copy; 2019</span>
-      </div>
-    </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="jquery/jquery.min.js"></script>
