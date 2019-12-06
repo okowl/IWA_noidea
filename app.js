@@ -4,15 +4,17 @@ var http = require('http'),
     fs = require('fs'),
     xml2js = require('xml2js'),
     xmlParse = require('xslt-processor').xmlParse,
+    expAutoSan = require('express-autosanitizer'),
     xsltProcess = require('xslt-processor').xsltProcess;
 
 var router = express();
 var server = http.createServer(router);
 
 router.use(express.static(path.resolve(__dirname, 'views')));
-
 router.use(express.urlencoded({extended: true}));
 router.use(express.json());// Function to read in XML file and convert it to JSON
+router.use(expAutoSan.allUnsafe);
+
 function xmlFileToJs(filename, cb) {
   var filepath = path.normalize(path.join(__dirname, filename));
   fs.readFile(filepath, 'utf8', function(err, xmlStr) {
