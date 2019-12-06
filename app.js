@@ -33,14 +33,14 @@ router.post('/post/json', function(req, res){
 
     function appendJSON(obj){
 
-        console.log(obj);
+       // console.log(obj);
 
         xmlFileToJs('structure.xml', function(err, result){
             if(err) throw (err);
 
                 result.item.element.push({'Channel': obj.Channel, 'PublishedDate': obj.PublishedDate, 'Title': obj.Title, 'URL': obj.URL});
 
-                console.log(result);
+               // console.log(result);
 
                 jsToXmlFile('structure.xml', result, function(err){
                     if(err) console.log(err);
@@ -79,7 +79,7 @@ router.post('/post/edit', function(req, res) {
 
   
   function editJSON(obj) {
-      console.log(obj);
+    
     // Function to read in XML file, convert it to JSON, add a new object and write back to XML file
     xmlFileToJs('structure.xml', function(err, result) {
       if (err) throw (err);

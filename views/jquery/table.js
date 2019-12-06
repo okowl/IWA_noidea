@@ -25,7 +25,6 @@ function select_row()
 		$(".selected").removeClass("selected");
 		$(this).addClass("selected");
 		var element = $(this).attr("id") - 1;
-        console.log(element);
         delete_row(element);
         document.getElementById('elementID').value = element;
 	})
