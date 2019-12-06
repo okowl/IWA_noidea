@@ -73,6 +73,30 @@ router.post('/post/delete', function(req, res) {
   res.redirect('back');
 
 });
+router.post('/post/edit', function(req, res) {
+
+  
+  function editJSON(obj) {
+      console.log(obj);
+    // Function to read in XML file, convert it to JSON, add a new object and write back to XML file
+    xmlFileToJs('structure.xml', function(err, result) {
+      if (err) throw (err);
+      
+     result.item.element[obj.element] = {'Channel': obj.Channel, 'PublishedDate': obj.PublishedDate, 'Title': obj.Title, 'URL': obj.URL}; 
+      //Converting back to our original XML file from JSON
+      jsToXmlFile('structure.xml', result, function(err) {
+        if (err) console.log(err);
+      })
+    })
+  };
+
+  
+  editJSON(req.body);
+
+  // Re-direct the browser back to the page, where the POST request came from
+  res.redirect('back');
+
+});
 
 router.get('/', function(req, res){
 
@@ -96,7 +120,7 @@ router.get('/get/html', function(req, res) {
 
 });
 
-server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
+server.listen(process.env.PORT || 3001, process.env.IP || "0.0.0.0", function() {
   var addr = server.address();
   console.log("Server listening at", addr.address + ":" + addr.port);
 });

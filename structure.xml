@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
   <element>
-    <Channel>Чикен Карри</Channel>
-    <PublishedDate>8/31/2019 9:47:44 a8/p8</PublishedDate>
-    <Title>Cream Soda - Никаких больше вечеринок (премьера клипа 2019)</Title>
-    <URL>https://www.youtube.com/watch?v=M95iEQx20Ag</URL>
+    <Channel>Taras</Channel>
+    <PublishedDate>22/08/2019</PublishedDate>
+    <Title>Taras Great</Title>
+    <URL>1</URL>
   </element>
   <element>
     <Channel>Shortparis</Channel>
@@ -631,5 +631,17 @@
     <PublishedDate>11/16/2019 16:49:35 a11/p11</PublishedDate>
     <Title>2rbina 2rista - Стальные яйца</Title>
     <URL>https://www.youtube.com/watch?v=WtPH5OZwwHc</URL>
+  </element>
+  <element>
+    <Channel>taras super</Channel>
+    <PublishedDate>taras</PublishedDate>
+    <Title>Taras super</Title>
+    <URL>https://www.youtube.com/watch?v=M95iEQx20Ag</URL>
+  </element>
+  <element>
+    <Channel>taras super</Channel>
+    <PublishedDate>taras</PublishedDate>
+    <Title>Taras super</Title>
+    <URL>https://www.youtube.com/watch?v=M95iEQx20Ag</URL>
   </element>
 </item>

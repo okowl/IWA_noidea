@@ -74,7 +74,7 @@
         </div>
         <!------------------Update record tab----------------->
         <div id="upd" class="tabcontent">
-                <form enctype="application/json" action="/post/json" method="post" style="margin-bottom: 10px;">
+                <form enctype="application/json" action="/post/edit" method="post" style="margin-bottom: 10px;">
                     <div class="form-group">
                         <input class="form-control" type="text" name="Channel" placeholder="Channel">
                     </div>
@@ -87,7 +87,10 @@
                     <div class="form-group">
                         <input class="form-control" type="text" name="URL" placeholder="URL">
                     </div>
-                    <button type="submit" class="btn btn-block btn-danger" style="background-color: #4CAF50; border-color: #4CAF50;">Update</button>
+                     <div class="form-group">
+						<input id="elementID" class="form-control" type="hidden" name="element" value="" >
+					</div>
+                    <button type="submit" class="btn btn-block btn-danger" style="background-color: #4B0082; border-color: #4CAF50;">Update</button>
                 </form>
             </div>
             <button id="delete" class="btn btn-block btn-danger">Delete</button>

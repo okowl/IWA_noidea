@@ -26,7 +26,8 @@ function select_row()
 		$(this).addClass("selected");
 		var element = $(this).attr("id") - 1;
         console.log(element);
-		delete_row(element);
+        delete_row(element);
+        document.getElementById('elementID').value = element;
 	})
 };
 
