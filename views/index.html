@@ -87,7 +87,7 @@
                     <div class="form-group">
                         <input class="form-control" type="text" name="URL" placeholder="URL">
                     </div>
-                    <button type="submit" class="btn btn-block btn-danger" style="background-color: #4CAF50; border-color: #4CAF50;">Submit</button>
+                    <button type="submit" class="btn btn-block btn-danger" style="background-color: #4CAF50; border-color: #4CAF50;">Update</button>
                 </form>
             </div>
             <button id="delete" class="btn btn-block btn-danger">Delete</button>
@@ -102,24 +102,6 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="jquery/table.js"></script>
 
-  <script>
-        //just switching between tabs
-    function opentab(evt, usertype) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(usertype).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-    </script>
 
 </body>
 
