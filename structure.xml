@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
   <element>
-    <Channel>Shortparis</Channel>
-    <PublishedDate>8/31/2019 9:48:06 a8/p8</PublishedDate>
-    <Title>Shortparis - Страшно</Title>
-    <URL>https://www.youtube.com/watch?v=FUdteCBRX9c</URL>
-  </element>
-  <element>
-    <Channel>animaljazzband</Channel>
-    <PublishedDate>8/31/2019 9:48:12 a8/p8</PublishedDate>
-    <Title>Animal ДжаZ — Чувства</Title>
+    <Channel>test</Channel>
+    <PublishedDate>1111-11-11</PublishedDate>
+    <Title>test</Title>
     <URL>https://www.youtube.com/watch?v=5sd7gJTnFRM</URL>
-  </element>
-  <element>
-    <Channel>SIDxRAM aka Грязный Рамирес Official</Channel>
-    <PublishedDate>8/31/2019 9:48:36 a8/p8</PublishedDate>
-    <Title>RAM — Пот (Official Music Video)</Title>
-    <URL>https://www.youtube.com/watch?v=d-jEGvZuWho</URL>
   </element>
   <element english="true">
     <Channel>wearepussyriot</Channel>
@@ -625,35 +613,5 @@
     <PublishedDate>11/16/2019 16:49:35 a11/p11</PublishedDate>
     <Title>2rbina 2rista - Стальные яйца</Title>
     <URL>https://www.youtube.com/watch?v=WtPH5OZwwHc</URL>
-  </element>
-  <element>
-    <Channel>1</Channel>
-    <PublishedDate>2019-12-01</PublishedDate>
-    <Title>1</Title>
-    <URL>https://3000-e997deb5-eb80-44</URL>
-  </element>
-  <element>
-    <Channel>some</Channel>
-    <PublishedDate>2019-11-25</PublishedDate>
-    <Title>stuff</Title>
-    <URL>https://3000-e997deb5-eb80-44f2-8470-3f4f40ede030.ws-eu01.gitpod.io/</URL>
-  </element>
-  <element>
-    <Channel>1</Channel>
-    <PublishedDate>2019-11-30</PublishedDate>
-    <Title>2</Title>
-    <URL>https://3000-e997deb5-eb80-44</URL>
-  </element>
-  <element>
-    <Channel>New Chanal</Channel>
-    <PublishedDate>2019-11-25</PublishedDate>
-    <Title>SOme Title</Title>
-    <URL>https://3000-e997deb5-eb80-44f2-8</URL>
-  </element>
-  <element>
-    <Channel>New Chanal</Channel>
-    <PublishedDate>2019-12-10</PublishedDate>
-    <Title>dfdfds</Title>
-    <URL>https://3000-e997deb5-eb80-44</URL>
   </element>
 </item>
