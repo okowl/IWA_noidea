@@ -1,3 +1,8 @@
+/**
+ * @author Olga Kiseleva 2017136
+ * Part of the code were borrowed from Project https://github.com/mikhail-cct/CA1-In-class-Demo
+ */
+
 var http = require('http'),
     path = require('path'),
     express = require('express'),
@@ -32,12 +37,7 @@ function jsToXmlFile(filename, obj, cb) {
 router.post('/post/json', function(req, res){
 
     function appendJSON(obj){
-        //This segment displays the validation rule for address field.
-function textAlphanumeric(inputtext, alertMsg){
-var alphaExp = /^[0-9a-zA-Z]+$/;
-if(inputtext.value.match(alphaExp)){
-
-
+        
 
        // console.log(obj);
 
@@ -53,16 +53,10 @@ if(inputtext.value.match(alphaExp)){
                 })
             
         })
+    }
     appendJSON(req.body);
 
     res.redirect('back');
-    }else{
-document.getElementById('p5').innerText = alertMsg;
-inputtext.focus();
-return false;
-}
-}
-}
 });
 
 router.post('/post/delete', function(req, res) {
@@ -134,7 +128,7 @@ router.get('/get/html', function(req, res) {
 
 });
 
-server.listen(process.env.PORT || 3001, process.env.IP || "0.0.0.0", function() {
+server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
   var addr = server.address();
   console.log("Server listening at", addr.address + ":" + addr.port);
 });
