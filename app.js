@@ -32,6 +32,12 @@ function jsToXmlFile(filename, obj, cb) {
 router.post('/post/json', function(req, res){
 
     function appendJSON(obj){
+        //This segment displays the validation rule for address field.
+function textAlphanumeric(inputtext, alertMsg){
+var alphaExp = /^[0-9a-zA-Z]+$/;
+if(inputtext.value.match(alphaExp)){
+
+
 
        // console.log(obj);
 
@@ -47,10 +53,16 @@ router.post('/post/json', function(req, res){
                 })
             
         })
-    }
     appendJSON(req.body);
 
     res.redirect('back');
+    }else{
+document.getElementById('p5').innerText = alertMsg;
+inputtext.focus();
+return false;
+}
+}
+}
 });
 
 router.post('/post/delete', function(req, res) {

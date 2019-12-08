@@ -1,7 +1,7 @@
 /**
  * @author Olga Kiseleva 2017136
  * Part of the code were borrowed from Project https://github.com/mikhail-cct/CA1-In-class-Demo
- * It aill be commented in order, to demonstrate the understanding of the porcesses
+ * It will be commented in order, to demonstrate the understanding of the porcesses
  * that happens inside of methods.
  */
 
