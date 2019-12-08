@@ -11,8 +11,13 @@
   * @param {*} engLyrics - if this parameter is true -> the row will be higlighted
   */
 
+   window.addEventListener("load", function() {
+            document.querySelector("#showEng").addEventListener("click", function() {
+                highlightEnglish('table', this.checked);
+            });
+        });
 
-function highlightVegetarian(idTable, engLyrics) {
+function highlightEnglish(idTable, engLyrics) {
 
 	var i=0;
 	var oTable = document.getElementById(idTable);

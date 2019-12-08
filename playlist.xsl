@@ -15,6 +15,9 @@
                     </thead>
                     <tbody>
                         <xsl:for-each select="item/element">
+                         <xsl:attribute name="english">
+                                        <xsl:value-of select="boolean(./@english)" />
+                                    </xsl:attribute>
                                 <tr id="{position()}">
                                     <td>
                                         <xsl:value-of select="Channel" />
